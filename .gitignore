@@ -1,0 +1,30 @@
+# Ambiente virtual
+venv/
+.env
+*.env
+
+# __pycache__ e arquivos compilados
+__pycache__/
+*.py[cod]
+*.so
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Diretórios de IDEs/editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Build (caso você use buildozer ou empacotamento depois)
+build/
+dist/
+*.spec
